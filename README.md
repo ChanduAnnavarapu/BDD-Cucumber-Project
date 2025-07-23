@@ -2,15 +2,15 @@
 This project showcases a complete **Behavior-Driven Development (BDD)** automation framework built using **Cucumber**, **Selenium WebDriver**, **Java**, **TestNG**, and **Maven**. It is designed to automate functional UI tests for the sauce demo web application.
 
 ## Tech Stack
-**Java** – Core programming language  
-**Cucumber** – BDD framework for writing readable test cases  
-**Selenium WebDriver** – UI automation  
-**TestNG** – Test execution and assertions  
-**Maven** – Project build and dependency management  
-**Git** – Version control  
-**Jenkins** – CI/CD pipeline integration  
-**WebDriverManager** – Driver configuration and management  
-**Page Object Model (POM)** – Design pattern for maintainability  
+Java – Core programming language  
+Cucumber – BDD framework for writing readable test cases  
+Selenium WebDriver – UI automation  
+TestNG – Test execution and assertions  
+Maven – Project build and dependency management  
+Git – Version control  
+Jenkins – CI/CD pipeline integration  
+WebDriverManager – Driver configuration and management  
+Page Object Model (POM) – Design pattern for maintainability  
 
 ## Key Highlights:
 1.Defined Gherkin-based feature files for clear, business-readable scenarios
