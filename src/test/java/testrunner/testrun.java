@@ -3,9 +3,9 @@ package testrunner;
 import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 
-@CucumberOptions(tags="@smoke",
-		features={"src/test/resources/features"},
-		glue= {"stepdefinitions"},
+@CucumberOptions(tags="",
+		features={"src/test/resources/feature/backgroundScenario.feature"},
+		glue= {"stepdefinitions","testBase"},
 		plugin = {"pretty",
 			      "html:target/cucumber-reports.html",  // generates HTML report
 			      "json:target/cucumber.json"}           // generates JSON report	

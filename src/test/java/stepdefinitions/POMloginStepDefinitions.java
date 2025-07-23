@@ -11,11 +11,11 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import junit.framework.Assert;
-import pageObjects.loginPage;
+import tests.loginPage;
 
 public class POMloginStepDefinitions {
 	
-	WebDriver driver; //= baseClass.driver;
+	/*WebDriver driver; //= baseClass.driver;
 	loginPage lp;
 	
 	@Given("user on the login page")
@@ -35,13 +35,13 @@ public class POMloginStepDefinitions {
 	    lp.enterpassword(password);
 	}
 	
-	/*@When("provided username and password")
+	--@When("provided username and password")
 	public void provided_username_and_password() {
 	    driver.get("https://www.saucedemo.com/v1/");
 	    driver.manage().window().maximize();
 	    driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys("standard_user");
 	    driver.findElement(By.xpath("//input[@id='password']")).sendKeys("secret_sauce");
-	}*/
+	}---
 
 	@When("clicked on login")
 	public void clicked_on_login() {
@@ -57,6 +57,6 @@ public class POMloginStepDefinitions {
 	@Then("close the browser")
 	public void close_the_browser() {
 	    driver.close();
-	}
+	}*/
 
 }
